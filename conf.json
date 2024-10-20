@@ -1,0 +1,20 @@
+{
+	"tmux_session_settings": {
+		"tmux_session_name": "minecraft",
+		"minecraft_start_command": "taskset -c 4-7 java -XX:+UseParallelGC -Xmx4G -Xms4G -Dsun.rmi.dgc.server.gcInterval=600000 -XX:+UnlockExperimentalVMOptions -jar fabric-server-mc.1.20.2-loader.0.14.22-launcher.0.11.2.jar nogui"
+	},
+	"peeker_settings": {
+		"loop_interval": 1,
+		"timezone": "US/Pacific",
+		"user_command_starting_sign": "!",
+		"off_hours": {
+			"grace_peroid": 600,
+			"start": [
+				2330
+			],
+			"end": [
+				900
+			]
+		}
+	}
+}
